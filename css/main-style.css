@@ -71,10 +71,11 @@
     padding: 20px;
     justify-content: center;
     align-items: center;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   
   }
   .hero-text h3 {
     color:var(--color-neutras);
@@ -232,8 +233,11 @@
     width: 100%;
     min-height: 550px;
     background-color:#fff;
-    padding: 20px;
+    padding: 25px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .card-container_combos {
     display: flex;
@@ -242,6 +246,49 @@
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
+  }
+  .card-container_combos .card-body .card-title {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .card-container_combos .card-body .card-text{
+    font-size: 15px;
+    font-family: var(--font);
+    text-align: justify;
+    margin-top: 10px;
+    line-height: -2px;
+  }
+ .card-body .beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   /* row-gap: 35px;*/
+    
+  }
+  .card-body .beneficios ul{
+    list-style: none;
+    
+  }
+
+  .card-body .beneficios li{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+ .preco_btn .preco_btn_text{
+   color: red;
+   font-style: italic;
+  }
+  .preco_btn i{
+    color: #3e9cff;
+    font-size: 30px;
+    transition: 0.3s ease;
+  }
+  .preco_btn i:hover{
+    color:#3674B5 ;
+    scale: 0.5;
   }
   .footer{
     background-color:#578FCA;
