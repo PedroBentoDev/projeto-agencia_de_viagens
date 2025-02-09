@@ -145,6 +145,30 @@
     align-items: center;
     margin-bottom: 10px;
   }
+  .card-body .btn_icon .btn-primary{
+    text-decoration: none;
+    text-align: center;
+    background-color:#3674B5;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    transition: 0.2s ease;
+  }
+  .card-body .btn_icon .btn-primary:hover{
+    background: transparent;
+    border: 2px solid #3e9cff;
+    color: #3e9cff;
+    font-weight: 600;
+  }
+  .card-body .btn_icon i{
+    color: #3e9cff;
+    font-size: 30px;
+    transition: 0.3s ease;
+  }
+  .card-body .btn_icon i:hover{
+    color:#3674B5 ;
+    scale: 0.5;
+  }
   .card-body .preco{
     display: flex;
     flex-direction: row;
@@ -182,11 +206,11 @@
     background-color: aqua;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.pexels.com/photos/751266/pexels-photo-751266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("https://images.pexels.com/photos/751266/pexels-photo-751266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  ;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+   
   }
   .hero-text_hospedagem {
     color: #fff;
@@ -195,10 +219,12 @@
   }
   .hero-text_hospedagem h3 {
     font-size: 45px;
-    color: #fff;
+    font-weight: 500;
+    font-family: var(--font-logo);
+    font-style: italic;
   }
   .hero-text_hospedagem p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: -2px;
   }
 
