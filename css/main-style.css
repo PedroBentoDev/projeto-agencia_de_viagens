@@ -211,3 +211,10 @@
   .icon-links i{
     font-size: 20px;
   }
+  .links_redes_sociais{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    gap: 20px;
+
+  }
