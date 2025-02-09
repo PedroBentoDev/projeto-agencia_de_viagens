@@ -74,7 +74,7 @@
    
   }
   .hero-text h3 {
-    color:var(--color-neutras);
+    color:#fff;
     font-size: 45px;
     font-weight: 500;
     font-family: var(--font-logo);
@@ -82,7 +82,7 @@
   }
   .hero-text p {
    text-align: center;
-    color:var(--color-neutras);
+   color:#fff;
     font-size: 25px;
     font-weight: 200;
     font-family: var(--font);
