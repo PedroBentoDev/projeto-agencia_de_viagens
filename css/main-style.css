@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: var(--color-neutras);
+  background-color: #fff;
 }
 .header {
   display: flex;
@@ -359,4 +359,103 @@ body {
 .links_links_redes-sociais i:hover {
   color: #3e9cff;
   scale: 2;
+}
+
+
+/* Responsividade para dispositivos menores (até 768px) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-banner {
+    padding: 10px;
+    height: 350px;
+  }
+
+  .hero-text h3 {
+    font-size: 30px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+ .sec-cards_Promocao{
+  padding-top: 250px;
+  padding-bottom: 450px;
+  margin-bottom: 650px;
+ }
+  .container-card{
+    flex-direction: column;
+    margin-top: 650px;
+    gap: 20px;
+  }
+
+  .container-banner-hotel .hero-text_hospedagem h3{
+ font-size: 25px;
+  }
+  .card-body .btn_icon i {
+    font-size: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .container-links {
+    flex-direction: row;
+    flex-wrap:wrap ;
+    gap: 20px;
+  }
+  .links-footer{
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  .links-footer h5{
+    font-size: 10px;
+  }
+  .links_links_redes-sociais {
+    justify-content: center;
+  }
+}
+
+/* Responsividade para tablets (768px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-banner {
+    height: 400px;
+  }
+
+  .hero-text h3 {
+    font-size: 35px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
+  }
+
+  .container-card {
+    flex-wrap: wrap;
+  }
+
+  .card-body .btn_icon i {
+    font-size: 25px;
+  }
+}
+
+/* Responsividade para desktops grandes (mais de 1024px) */
+@media (min-width: 1025px) {
+  .container-card {
+    justify-content: space-between;
+  }
+
+  .card-item {
+    width: 30%;
+  }
+
+  .container-links {
+    justify-content: space-between;
+  }
 }
