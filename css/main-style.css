@@ -304,10 +304,23 @@
     padding: 20px;
     
   }
+  .container-links .links-footer h5{
+    font-family: var(--font);
+    font-size: 25px;
+    color:#143D60;
+    font-weight: 400;
+  }
+  
   .container-links a{
     text-align: justify;
     text-decoration: none;
+    color: #fff;
+    font-weight: 400;
 
+  }
+  .container-links a:hover{
+    color:#143D60;
+    text-decoration: underline;
   }
   .container-links ul{
     list-style: none;
@@ -339,6 +352,7 @@
 
   }
   .icon-links i{
+
     font-size: 20px;
   }
   .links_redes_sociais{
@@ -348,7 +362,19 @@
     gap: 20px;
 
   }
+  .links_redes_sociais h5{
+    color:#143D60;
+  }
   .links_links_redes-sociais{
     display: flex;
     gap: 15px;
+    
+  }
+  .links_links_redes-sociais i{
+   color: #143D60;
+   font-size: 20px;
+  }
+  .links_links_redes-sociais i:hover{
+    color: #3e9cff;
+    scale: 2;
   }
