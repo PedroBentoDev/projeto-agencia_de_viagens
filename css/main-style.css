@@ -4,18 +4,28 @@
  :root {
     --font-logo: "poppins", sans-serif;
     --font: "roboto", sans-serif;
+    --color-primaria:#CAE0BC;
+    --color-segundaria:#780C28;
+    --color-neutras:#FFFFFF;
+    --color-neutras_2:#808080;
+    --color-destaque:#FFD700;
+    --color-font:black;
   }
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color: var(--color-neutras);
+  }
   .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: brown;
+    background-color:#578FCA ;
+    
   }
   .logo {
     display: flex;
@@ -37,10 +47,11 @@
     font-family: var(--font);
     font-size: 17px;
     transition: 0.2s ease;
+     color: aliceblue;
   }
 
   .header .nav a:hover {
-    background-color: blue;
+    background-color:#3674B5;
     color: aliceblue;
     font-weight: 400;
     border-radius: 35px;
@@ -55,7 +66,6 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
     background-image: url("https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
