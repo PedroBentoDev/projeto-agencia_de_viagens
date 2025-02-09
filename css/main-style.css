@@ -4,13 +4,9 @@
  :root {
     --font-logo: "poppins", sans-serif;
     --font: "roboto", sans-serif;
-    --color-primaria:#CAE0BC;
-    --color-segundaria:#780C28;
-    --color-neutras:#FFFFFF;
-    --color-neutras_2:#808080;
-    --color-destaque:#FFD700;
-    --color-font:black;
+   
   }
+
   * {
     margin: 0;
     padding: 0;
@@ -265,7 +261,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   /* row-gap: 35px;*/
+ 
+    
     
   }
   .card-body .beneficios ul{
